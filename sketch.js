@@ -86,7 +86,7 @@ function setup() {
   button3.mouseClicked(drop3);
 
   //Botón para soplador
-  globe = createImg("blower.png");
+  globe = createImg("ballon.png");
   globe.position(10,240);
   globe.size(50,50);
   globe.mouseClicked(airblow);
